@@ -1,23 +1,11 @@
 ---
-layout: default
+layout: d
 ---
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+{%for post in paginator.posts%}
+<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 bigcard">
+  <div class="box card">
+    {{post.author}}<br/>{{post.date|date: "%d/%m/%Y"}} | {{post.readtime}} read
+    <a href="{{post.url}}"><img src="{{post.img_src}}"><h2>{{post.title}}</h2></a>
+  </div>
 </div>
+{%endfor%}

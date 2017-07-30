@@ -1,0 +1,14 @@
+*{font-family:sans;font-weight:100;}
+a{text-decoration:none;}
+hr{color:#ccc;}
+input,button{padding:5px;margin:0;}
+.hidden{ display: none;}
+footer{text-align:center;}
+li{list-style-type:none;}
+.header{border-bottom:1px solid #ccc;margin:0 0 20px 0;}
+.header a{color:black;margin:0 0 0 10px;}.header a:hover{color:#54487a;}
+nav ul{padding:0;margin:0;}nav li{display:inline;}
+.search{padding:15px;}
+img{width:100%;height:auto;}
+.card:hover{opacity:0.7;}.card h2{margin-top:0;}
+.sidebox{border:1px solid lightgrey;text-align:center;padding:10px}
