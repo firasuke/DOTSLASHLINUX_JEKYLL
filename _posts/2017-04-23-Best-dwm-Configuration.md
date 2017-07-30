@@ -198,4 +198,3 @@ I've included these default shortcuts in the configuration file as well, just co
 <br/>
 After we've done configuring dwm, it's time to fire it up. To start dwm, simply add the following to your .xinitrc:
 <pre><code class="lang-properties">exec dwm</code></pre>
-<hr/>

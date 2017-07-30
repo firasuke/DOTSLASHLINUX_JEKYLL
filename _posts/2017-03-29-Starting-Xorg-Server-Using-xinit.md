@@ -367,4 +367,3 @@ If you're using BASH you can automate the process of startx after logging in by 
 <pre><code class="language-bash">if [ -z "$DISPLAY" ] && [ -n "$XDG_VTNR" ] && [ "$XDG_VTNR" -eq 1 ]; then
   exec startx
 fi</code></pre>
-<hr/>

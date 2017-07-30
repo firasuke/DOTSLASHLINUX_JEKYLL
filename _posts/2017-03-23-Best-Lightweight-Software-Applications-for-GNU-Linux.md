@@ -183,4 +183,3 @@ Wget something when you're in a terminal or a tty, uGet it when not.
 <hr/>
 <h3>CONCLUSION</h3>
 I hope you've enjoyed this article. This list of applications will be constantly updated and new entries will be added (that is if I found another lightweight yet convenient application for GNU/Linux). If you think I missed an application that you think is lightweight, then please let us know in the comments section below.
-<hr/>

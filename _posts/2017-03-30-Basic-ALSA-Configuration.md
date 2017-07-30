@@ -193,4 +193,3 @@ Then we'll add this entry to the modifiers section:
 { 0,                            0x1008ff11,	   spawn,          {.v = voldwcmd } },
 { 0,             	            0x1008ff13,	   spawn,          {.v = volupcmd } },
 { 0,                            0x1008ff12,	   spawn,          {.v = volmcmd } },</code></pre>
-<hr/>

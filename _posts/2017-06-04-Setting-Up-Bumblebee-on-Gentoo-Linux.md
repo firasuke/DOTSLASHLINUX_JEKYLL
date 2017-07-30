@@ -340,4 +340,3 @@ Another important thing to keep note of is that whenever you do a major change i
 <br/>
 <br/>
 Thanks for reading the article! Have a great day!
-<hr/>

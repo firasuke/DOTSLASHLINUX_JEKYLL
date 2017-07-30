@@ -76,4 +76,3 @@ You can really tweak this file to your liking. I didn't tamper with the default 
 MOUSE_BTN4 add volume -5</code></pre>
 <br/>
 In my case <mark>MOUSE_BTN3</mark> and <mark>MOUSE_BTN4</mark> referred to scrolling up and down respectively.
-<hr/>

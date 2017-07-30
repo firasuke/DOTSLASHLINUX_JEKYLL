@@ -1,11 +1,8 @@
 image: ruby:2.3
-
 variables:
   JEKYLL_ENV: production
-
 before_script:
   - bundle install
-
 test:
   stage: test
   script:
@@ -15,7 +12,6 @@ test:
     - test
   except:
   - master
-
 pages:
   stage: deploy
   script:

@@ -106,4 +106,3 @@ If so, simply use this instead:
 <h3 id="Starting_slstatus">3- Starting slstatus</h3>
 After configuring slstatus, we now have to start it. To do that add the following to your .xinitrc:
 <pre><code class="lang-properties">slstatus -d</code></pre>
-<hr/>

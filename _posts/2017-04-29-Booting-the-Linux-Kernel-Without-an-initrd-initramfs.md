@@ -334,4 +334,3 @@ Booting without an initrd/initramfs is 100% doable so don't think it's impossibl
 <br/>
 I'm using Gentoo Linux and can confirm that you can achieve a bootable kernel without initrd/initramfs. If your kernel is panicking then debug the problem and keep trying until it works. If you have a question as well then lemme know in the comments section below.
 <br/>
-<hr/>

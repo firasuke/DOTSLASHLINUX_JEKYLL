@@ -103,4 +103,3 @@ static const char *termcmd[]  = { "urxvtc", NULL};
 Then let's add this entry to the modifiers section (In our case the shortcut keys will be ALT + x):
 <pre class="line-numbers"><code class="language-c">/* modifier                     key        function        argument */
 { MODKEY,	                XK_x, 	   spawn,          {.v = termcmd } },</code></pre>
-<hr/>
