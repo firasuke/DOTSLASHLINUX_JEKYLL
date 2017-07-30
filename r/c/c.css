@@ -10,7 +10,7 @@ li{list-style-type:none;}
 nav ul{padding:0;margin:0;}nav li{display:inline;}
 .search{padding:15px;}
 img{width:100%;height:auto;}
-.card{transition:0.3s;}.card:hover{opacity:0.9;transform:scale(1.016);}.card h3{margin-top:0;}
+.card{transition:0.1s;}.card:hover{opacity:0.9;transform:scale(1.016);}.card h3{margin-top:0;}
 .info{border:1px dashed #54487a;background-color:#54487a;color:white;padding:5px;}
 pre{border:1px dashed #54487a;border-radius:5px;}
 .side{text-align:center;border-left:1px solid #ccc;}
