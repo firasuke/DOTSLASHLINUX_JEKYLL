@@ -1,9 +1,9 @@
 ---
-layout: p
+layout: d
 title: Configuring rxvt-unicode (urxvt)
 date: 2017-03-30 02:00:00
 author: Firas Khalil Khana
-img_src: /res/img/urxvtc.png
+img_src: /r/i/urxvtc.png
 img_alt: urxvtc
 readtime: 3 minutes
 ---

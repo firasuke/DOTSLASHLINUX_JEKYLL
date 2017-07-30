@@ -3,7 +3,7 @@ layout: d
 title: Setting Up Bumblebee on Gentoo Linux
 date: 2017-06-04
 author: Firas Khalil Khana
-img_src: /res/img/bumblebee.png
+img_src: /r/i/bumblebee.png
 img_alt: bumblebee
 readtime: 15 minutes
 ---

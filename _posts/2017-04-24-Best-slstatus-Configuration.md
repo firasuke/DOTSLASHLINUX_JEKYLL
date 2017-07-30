@@ -1,9 +1,9 @@
 ---
-layout: p
+layout: d
 title: Best slstatus Configuration
 date: 2017-04-24
 author: Firas Khalil Khana
-img_src: /res/img/slstatus.png
+img_src: /r/i/slstatus.png
 img_alt: slstatus
 readtime: 2 minutes
 ---

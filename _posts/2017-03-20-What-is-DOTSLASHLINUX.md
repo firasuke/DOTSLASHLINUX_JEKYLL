@@ -1,9 +1,9 @@
 ---
-layout: p
+layout: d
 title: What is DOTSLASHLINUX?
 date: 2017-03-20
 author: Firas Khalil Khana
-img_src: /res/img/lightweight.png
+img_src: /r/i/lightweight.png
 img_alt: lightweight
 readtime: 2 minutes
 ---

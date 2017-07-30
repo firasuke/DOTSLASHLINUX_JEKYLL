@@ -1,9 +1,9 @@
 ---
-layout: p
+layout: d
 title: Best Lightweight Software/Applications for GNU/Linux!
 date: 2017-03-23
 author: Firas Khalil Khana
-img_src: /res/img/lightweight.png
+img_src: /r/i/lightweight.png
 img_alt: lightweight
 readtime: 11 minutes
 ---

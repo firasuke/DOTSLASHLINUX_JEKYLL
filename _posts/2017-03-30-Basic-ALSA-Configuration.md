@@ -1,9 +1,9 @@
 ---
-layout: p
+layout: d
 title: Basic ALSA Configuration
 date: 2017-03-30 05:00:00
 author: Firas Khalil Khana
-img_src: /res/img/alsa.png
+img_src: /r/i/alsa.png
 img_alt: alsa
 readtime: 3 minutes
 ---

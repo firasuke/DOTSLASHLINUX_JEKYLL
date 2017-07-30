@@ -1,9 +1,9 @@
 ---
-layout: p
+layout: d
 title: Optimal mpv Configuration
 date: 2017-03-31
 author: Firas Khalil Khana
-img_src: /res/img/mpv.png
+img_src: /r/i/mpv.png
 img_alt: mpv
 readtime: 2 minutes
 ---

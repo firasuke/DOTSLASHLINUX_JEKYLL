@@ -1,9 +1,9 @@
 ---
-layout: p
+layout: d
 title: Booting the Linux Kernel Without an initrd/initramfs
 date: 2017-04-29
 author: Firas Khalil Khana
-img_src: /res/img/noinitrd.png
+img_src: /r/i/noinitrd.png
 img_alt: noinitrd
 readtime: 10 minutes
 ---

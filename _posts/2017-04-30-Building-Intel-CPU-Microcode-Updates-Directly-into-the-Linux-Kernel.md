@@ -1,9 +1,9 @@
 ---
-layout: p
+layout: d
 title: Building Intel CPU Microcode Updates Directly into the Linux Kernel
 date: 2017-04-30
 author: Firas Khalil Khana
-img_src: /res/img/microcode.png
+img_src: /r/i/microcode.png
 img_alt: microcode
 readtime: 8 minutes
 ---

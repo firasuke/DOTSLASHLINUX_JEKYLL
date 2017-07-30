@@ -1,9 +1,9 @@
 ---
-layout: p
+layout: d
 title: Best Lightweight GNU/Linux Distros!
 date: 2017-03-21
 author: Firas Khalil Khana
-img_src: /res/img/lightweight.png
+img_src: /r/i/lightweight.png
 img_alt: lightweight
 readtime: 7 minutes
 ---

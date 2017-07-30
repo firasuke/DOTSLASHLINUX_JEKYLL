@@ -1,9 +1,9 @@
 ---
-layout: p
+layout: d
 title: Starting Xorg Server using xinit
 date: 2017-03-29
 author: Firas Khalil Khana
-img_src: /res/img/startx.png
+img_src: /r/i/startx.png
 img_alt: startx
 readtime: 5 minutes
 ---

@@ -1,9 +1,9 @@
 ---
-layout: p
+layout: d
 title: Best dwm Configuration
 date: 2017-04-23
 author: Firas Khalil Khana
-img_src: /res/img/dwm.png
+img_src: /r/i/dwm.png
 img_alt: dwm
 readtime: 3 minutes
 ---
