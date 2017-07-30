@@ -11,9 +11,6 @@ readtime: 3 minutes
 
 In this article I'll show you how to setup dwm and equip it with a nice basic configuration file.
 <br/>
-<br/>
-<img src="{{ site.baseurl }}/resources/img/DOTSLASHLINUX-dwm.jpg" class="img-responsive">
-<br/>
 <hr/>
 <h3 id="Installation">1- Installation</h3>
 <br/>

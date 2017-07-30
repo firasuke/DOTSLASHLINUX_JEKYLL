@@ -128,7 +128,7 @@ As you can see my CPUID signature is <mark>0x000306c3</mark>. If that didn't wor
 <br/>
 <br/>
  You can do your research and find your CPUID signature. For example, my CPU is a <em>4th Gen. Intel Core i7 4700MQ</em>, a little googling and I found this on cpu-world.com :
-<img src="{{ site.baseurl }}/resources/img/cpuid.png" class="img-responsive">
+<img src="{{ site.baseurl }}/r/i/cpuid.png">
 <br/>
 Another way to do this is to install <mark>cpuid</mark>:
 <pre><code class="language-bash">emerge -av sys-apps/cpuid</code></pre>
