@@ -5,8 +5,8 @@ layout: d
 {%for post in paginator.posts%}
 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 bigcard">
   <div class="box card">
-    <div class="info">{{post.author}}<br/>{{post.date|date: "%d/%m/%Y"}} | {{post.readtime}} read</div>
-    <a href="{{post.url}}"><img src="{{post.img_src}}"><h3>{{post.title}}</h3></a>
+    <a href="{{post.url}}"><div class="info">{{post.author}}<br/>{{post.date|date: "%d/%m/%Y"}} | {{post.readtime}} read</div>
+    <img src="{{post.img_src}}"><h3>{{post.title}}</h3></a>
   </div>
 </div>
 {%endfor%}
