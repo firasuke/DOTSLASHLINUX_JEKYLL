@@ -1,11 +1,10 @@
 *{font-weight:100;}body{font-family:sans;}
 a{text-decoration:none;color:black;}a:hover,.cur a{border-bottom:2px solid #00A896;}
 input,button{padding:5px;margin:0;}
-footer{text-align:center;border-top:1px solid black;border-bottom:1px solid black;background-color:#333333;color:white;margin:10px 0 0 0;}footer a{color:white;}
+footer{text-align:center;background-color:#333333;color:white;margin:10px 0 0 0;}footer a{color:white;}
 li{list-style-type:none;}
-.header{border-top:1px solid black;border-bottom:1px solid black;margin:0 0 10px 0;background-color:#333333;}.header a{margin:0 0 0 10px;color:white;}#brand{text-shadow:#54487a 0 0 3px;}
-nav ul{padding:0;margin:0;}nav li{display:inline;}
-.search{padding:15px;}
+.header{margin:0 0 10px 0;background-color:#333333;}.header a{margin:0 0 0 10px;color:white;}
+nav ul{margin:0;padding:0;}nav li{display:inline;}
 img{width:100%;height:auto;}
 .card a:hover{opacity:0.9;}.card h3{margin-top:3px;}
 .info{padding:5px;background-color:white;border-top:2px solid black;}
