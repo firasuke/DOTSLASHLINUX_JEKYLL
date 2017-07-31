@@ -21,7 +21,7 @@ I'll start from ground up, and by that I mean from the <strong>bootloader</stron
 LILO is the lightest bootloader currently available. It's development was discontinued in Dec. 2015 , but it still works perfectly fine with ext4 filesystems. The configuration file is very straightforward and it requires updating so don't you forget to update LILO once you're done editing its configuration file.
 <br/>
 <br/>
-It also has another limitation, that is you can't use more than one initrd. So if you had your microcode updates in an initrd, they won't work with LILO, but don't worry DOTSLASHLINUX has guides on booting without an initrd and building microcode updates directly into the kernel.
+It also has another limitation, that is you can't use more than one initrd. So if you had your microcode updates in an initrd, they won't work with LILO, but don't worry ./LINUX has guides on booting without an initrd and building microcode updates directly into the kernel.
 <br/>
 <br/>
 On the other hand, EXTLINUX is another flavor of Syslinux the lightweight bootloader. It has a simple configuration, supports <mark>ext2, ext3, ext4, BTRFS, NTFS, FAT12, FAT16, FAT32, XFS, UFS and FFS</mark> and it doesn't require updating once you're done with editing its configuration file, which is impressive once you start to count the number of times you forgot to update your GRUB or LILO config.
@@ -55,28 +55,28 @@ We have a tie here why? Well I'd pick a tie over flame wars any day! <strong>" X
 Yes, you do not need a display/login manager to start your Xorg server. You can easily use xinit and its frontend startx instead. You can even automate startx to start once you've logged in.
 <br/>
 <br/>
-Here's DOTSLASHLINUX's guide to do that <a href="https://www.dotslashlinux.com/2017/03/29/Starting-Xorg-Server-Using-xinit.html" target="_blank">Starting Xorg Server Using xinit</a>.
+Here's ./LINUX's guide to do that <a href="https://www.dotslashlinux.com/2017/03/29/Starting-Xorg-Server-Using-xinit.html" target="_blank">Starting Xorg Server Using xinit</a>.
 <br/>
 <hr/>
 <h3>7- Sound System: <a href="https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture" target="_blank">ALSA</a> VS <a href="https://en.wikipedia.org/wiki/PulseAudio" target="_blank">PulseAudio</a></h3>
 There isn't much comparison here as ALSA is a device driver, an interface between sound hardware and the kernel. Using ALSA alone is lighter than pulseaudio. Late versions of alsa support sound from multiple applications using the plugin dmix which is enabled by default. PulseAudio is a sound server built on top of alsa and can control sound coming from multiple applications unlike alsa which doesn't have this functionality.
 <br/>
 <br/>
-If you wanted a basic configuration file to use on laptops with PCH/HDMI sound cards, kindly check DOTSLASHLINUX's custom ALSA configuration <a href="https://www.dotslashlinux.com/2017/03/30/Basic-ALSA-Configuration.html" target="_blank">Basic ALSA Configuration</a>.
+If you wanted a basic configuration file to use on laptops with PCH/HDMI sound cards, kindly check ./LINUX's custom ALSA configuration <a href="https://www.dotslashlinux.com/2017/03/30/Basic-ALSA-Configuration.html" target="_blank">Basic ALSA Configuration</a>.
 <br/>
 <hr/>
 <h3>8- Window Manager: <a href="http://dwm.suckless.org/" target="_blank">dwm</a> VS <a href="http://openbox.org/wiki/Main_Page" target="_blank">Openbox</a></h3>
 DWM isn't only a tiled window manager for X, it's a dynamic one as well but the reason why I chose dwm is that it's highly configurable, does what it needs to do perfectly well and super fast! Can't it get any better!
 <br/>
 <br/>
-Here's DOTSLASHLINUX's custom dwm configuration <a href="https://www.dotslashlinux.com/2017/04/23/Best-dwm-Configuration.html" target="_blank">Best dwm Configuration</a>.
+Here's ./LINUX's custom dwm configuration <a href="https://www.dotslashlinux.com/2017/04/23/Best-dwm-Configuration.html" target="_blank">Best dwm Configuration</a>.
 <br/>
 <br/>
 On the other hand, openbox is the de facto stacked window manager for lightweight GNU/Linux distros. It's heavier than dwm, but it's for those who absolutely can't use or hate tiled window managers.
 <br/>
 <hr/>
 <h3>9- Status Bar vs Panel: <a href="https://github.com/drkhsh/slstatus/" target="_blank">slstatus</a> vs <a href="https://wiki.lxde.org/en/LXPanel" target="_blank">LXPanel</a></h3>
-slstatus is the lightest status bar, it was made and should be used with dwm. Here's DOTSLASHLINUX's custom slstatus configuration <a href="https://www.dotslashlinux.com/2017/04/24/Best-slstatus-Configuration.html" target="_blank">Best slstatus Configuration</a>.
+slstatus is the lightest status bar, it was made and should be used with dwm. Here's ./LINUX's custom slstatus configuration <a href="https://www.dotslashlinux.com/2017/04/24/Best-slstatus-Configuration.html" target="_blank">Best slstatus Configuration</a>.
 <br/>
 <br/>
 If you're into openbox then LXPanel is your friend. Yes, LXPanel is lighter than fbpanel, pypanel, tint2... you name it! How come? Out of the box it has a workspace switcher, minimize-all-windows button, volume plugin, battery plugin, networking plugin, cpu/ram usage plugin, temperature plugin, date/time plugin...etc.
@@ -101,7 +101,7 @@ Lightest application launcher available. It was originally developed to be used 
 Some may argue and say that st is lighter or that lxterminal is better, but if you're only going to run a single instance of a terminal emulator without needing the support for scrolling back up then go with st... Otherwise, you can heavily benefit from urxvt. Once you get the daemon (urxvtd) running, you can open for example 100 clients (urxvtc) and the memory footprint would roughly stay the same. Try opening 100 tabs in lxterminal or opening 100 instances of st and measure its memory usage and see for yourself...
 <br/>
 <br/>
-Here's DOTSLASHLINUX's custom urxvt configuration for least memory footprint <a href="https://www.dotslashlinux.com/2017/03/30/Configuring-rxvt-unicode-urxvt.html" target="_blank">Configuring rxvt-unicode (urxvt)</a>.
+Here's ./LINUX's custom urxvt configuration for least memory footprint <a href="https://www.dotslashlinux.com/2017/03/30/Configuring-rxvt-unicode-urxvt.html" target="_blank">Configuring rxvt-unicode (urxvt)</a>.
 <br/>
 <hr/>
 <h3>14- Network Manager: <a href="https://01.org/connman" target="_blank">ConnMan</a></h3>
@@ -128,7 +128,7 @@ DeaDBeef is the lighter one (but not by much). However, I've encountered several
 Some may argue that mplayer is lighter, that is true but only slightly. Mpv plays all video formats known to man-kind and it uses less cpu resources than both mplayer and vlc. It also supports VAAPI (Video Acceleration API) and VDPAU (Video Decode and Presentation API) which can significantly reduce its cpu usage (VAAPI) and its gpu usage (VDPAU) making it the fastest, most powerful and least resource hungry video player on GNU/Linux.
 <br/>
 <br/>
-Here's DOTSLASHLINUX's custom mpv configuration for maximum performance and maximum powersaving <a href="https://www.dotslashlinux.com/2017/03/31/Optimal-mpv-Configuration.html" target="_blank">Optimal mpv Configuration</a>.
+Here's ./LINUX's custom mpv configuration for maximum performance and maximum powersaving <a href="https://www.dotslashlinux.com/2017/03/31/Optimal-mpv-Configuration.html" target="_blank">Optimal mpv Configuration</a>.
 <hr/>
 <h3>18- Text Editor: <a href="https://sites.google.com/site/e3editor/" target="_blank">e3</a> VS <a href="https://en.wikipedia.org/wiki/GNU_nano" target="_blank">GNU nano</a> VS <a href="http://tarot.freeshell.org/leafpad/" target="_blank">Leafpad</a></h3>
 e3 is the lightest and is written in assembly. Nano and e3 are for when you're inside a terminal or in a tty, and leafpad's when you're not. However, I'd pick e3/nano over leafpad any day any time.

@@ -12,9 +12,6 @@ readtime: 2 minutes
 
 In this article I'll show you how to setup and configure slstatus the lightest status bar to use with dwm.
 <br/>
-<br/>
-<img src="{{ site.baseurl }}/resources/img/DOTSLASHLINUX-slstatus.jpg" class="img-responsive" style="display: block; margin: 0 auto">
-<br/>
 <hr/>
 <h3 id="Installation">1- Installation</h3>
 <br/>

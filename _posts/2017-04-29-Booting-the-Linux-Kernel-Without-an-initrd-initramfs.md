@@ -30,7 +30,7 @@ You should compile your own kernel.
 You should compile your own kernel.
 <br/>
 <br/>
-I know this may sound like a nightmare for some of you, but that's why DOTSLASHLINUX was created. Plus don't worry the kernel configuration series is coming really soon, so look up to it!
+I know this may sound like a nightmare for some of you, but that's why ./LINUX was created. Plus don't worry the kernel configuration series is coming really soon, so look up to it!
 <br/>
 <br/>
 Here's what we're going to do:

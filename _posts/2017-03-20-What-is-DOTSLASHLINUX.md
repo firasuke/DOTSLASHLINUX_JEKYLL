@@ -1,6 +1,6 @@
 ---
 layout: p
-title: What is DOTSLASHLINUX?
+title: What is ./LINUX?
 date: 2017-03-20
 author: Firas Khalil Khana
 img_src: /r/i/lightweight.png
@@ -10,7 +10,7 @@ readtime: 2 minutes
 
 <img src="{{page.img_src}}" alt="{{page.img_alt}}">
 
-As most of you are wondering, DOTSLASHLINUX is a new website on the web, aside from that it's a website about all the cool stuff that you can do with a GNU/Linux distro.
+As most of you are wondering, ./LINUX is a new website on the web, aside from that it's a website about all the cool stuff that you can do with a GNU/Linux distro.
 <br>
 <br>
 
@@ -18,19 +18,19 @@ I'll be discussing all that there's to optimizing a GNU/Linux distro, starting f
 <br>
 <br>
 
-What's awesome about GNU/Linux is that once you've got accustomed to a certain setup, you can backup your configuration (your "/home" perhaps) and apply it (most of the times) wherever and whenever you please, as long as there's a linux kernel down there! That's why DOTSLASHLINUX was created.
+What's awesome about GNU/Linux is that once you've got accustomed to a certain setup, you can backup your configuration (your "/home" perhaps) and apply it (most of the times) wherever and whenever you please, as long as there's a linux kernel down there! That's why ./LINUX was created.
 <br>
 <br>
 
-In DOTSLASHLINUX I'll be discussing the pros/cons of almost every single option you have to go through when optimizing a distro, choosing your favorite apps and alot more... Think about it: <strong>minimal overhead</strong>, <strong>small memory footprints</strong>, <strong>low temperatures</strong> and <strong>high performance</strong>! Isn't that awesome?!!
+I'll be discussing the pros/cons of almost every single option you have to go through when optimizing a distro, choosing your favorite apps and alot more... Think about it: <strong>minimal overhead</strong>, <strong>small memory footprints</strong>, <strong>low temperatures</strong> and <strong>high performance</strong>! Isn't that awesome?!!
 <br>
 <br>
 
-But doesn't that mean that I'll be pretty much neglecting userspace, convenience and productivity??!! Well, at first it may be time consuming for those who're doing it on their own, but in DOTSLASHLINUX you get the real results about what to pick. And NO, I never said I'm ignoring userspace and conveniency. In fact it's quite the opposite!
+But doesn't that mean that I'll be pretty much neglecting userspace, convenience and productivity??!! Well, at first it may be time consuming for those who're doing it on their own;therefore, on ./LINUX you'll get the real results about what to pick. And NO, I never said I'm ignoring userspace and conveniency. In fact it's quite the opposite!
 <br>
 <br>
 
-Userspace apps and tools will be given a special care to help our viewers achieve their dream distro fine-tuned to their utmost liking!
+Userspace apps and tools will be given a special care to help our readers achieve their dream distro fine-tuned to their utmost liking!
 <br>
 <br>
 

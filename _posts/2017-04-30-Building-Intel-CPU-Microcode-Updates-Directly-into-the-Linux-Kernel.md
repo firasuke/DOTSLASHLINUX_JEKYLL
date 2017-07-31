@@ -10,9 +10,10 @@ readtime: 8 minutes
 
 <img src="{{page.img_src}}" alt="{{page.img_alt}}">
 
-<mark>DOTSLASHLINUX is proud to say that part of this article was added to the <a href="https://wiki.gentoo.org/wiki/Intel_microcode#Kernel_3" target="_blank">Gentoo Wiki</a></mark>
+<mark>./LINUX is proud to say that part of this article was added to the <a href="https://wiki.gentoo.org/wiki/Intel_microcode#Kernel_3" target="_blank">Gentoo Wiki</a></mark>
 <br/>
-To achieve our dream of booting the kernel without an initrd/initramfs we have to build our CPU's microcode updates directly into the linux kernel (removing any need for an initrd/initramfs). This is doable, but due to lack of documentation on the process, one may find this thing hard to do. Yes, I know, that's why DOTSLASHLINUX was created xD.
+<br/>
+To achieve our dream of booting the kernel without an initrd/initramfs we have to build our CPU's microcode updates directly into the linux kernel (removing any need for an initrd/initramfs). This is doable, but due to lack of documentation on the process, one may find this thing hard to do. Yes, I know, that's why ./LINUX was created xD.
 <br/>
 <br/>
 For those who'd like to know, I'm using Gentoo Linux. Any distro will be fine though, as long as you can access your kernel's source files. The version of the kernel's source files that I'm using is 4.10.13.

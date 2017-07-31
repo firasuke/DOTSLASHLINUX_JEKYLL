@@ -1,11 +1,11 @@
-title: DOTSLASHLINUX | Are You Ready? (Y/Y)
+title: Are You Ready? (Y/Y) | ./LINUX
 url: https://www.dotslashlinux.com
 author: Firas Khalil Khana
 description: GNU/Linux Enthusiasts' Hub
 markdown: kramdown
 gems:
   - jekyll-paginate
-paginate: 6
+paginate: 8
 exclude:
   - README.md
   - CNAME

@@ -9,7 +9,7 @@ layout: d
   "img_alt":"{{post.img_alt | xml_escape}}",
   "title":"{{post.title | xml_escape}}",
   "author":"{{post.author | xml_escape}}",
-  "date":"{{post.date | date: '%b. '}}",
+  "date":"{{post.date | date: '%d/%m/%Y'}}",
   "readtime":"{{post.readtime | xml_escape}}",
   "url":"{{post.url | xml_escape}}"}
   {%unless forloop.last%},{%endunless%}{%endfor%}};</script>
