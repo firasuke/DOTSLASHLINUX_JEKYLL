@@ -1,0 +1,26 @@
+" Press ? for help
+
+.. (up a dir)
+/home/firas/Projects/DOTSLASHLINUX/
+▸ .git/
+▸ _layouts/
+▸ _posts/
+▸ _site/
+▸ about/
+▾ r/
+  ▸ c/
+  ▸ i/
+  ▸ j/
+▸ search/
+  .gitattributes
+  .gitignore
+  .gitlab-ci.yml
+  _config.yml
+  CNAME
+  favicon.ico
+  feed.xml
+  Gemfile
+  Gemfile.lock
+  index.html
+  LICENSE
+  README.md
