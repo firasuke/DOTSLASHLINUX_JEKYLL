@@ -1,14 +1,18 @@
 " Press ? for help
 
 .. (up a dir)
-/home/firas/Projects/DOTSLASHLINUX/
+</Projects/DOTSLASHLINUX/
 ▸ .git/
-▸ _layouts/
+▾ _layouts/
+    d.html
+    p.html
 ▸ _posts/
 ▸ _site/
 ▸ about/
 ▾ r/
-  ▸ c/
+  ▾ c/
+      c.css
+      p.css
   ▸ i/
   ▸ j/
 ▸ search/
