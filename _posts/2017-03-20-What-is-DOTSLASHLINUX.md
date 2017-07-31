@@ -1,5 +1,5 @@
 ---
-layout: d
+layout: p
 title: What is DOTSLASHLINUX?
 date: 2017-03-20
 author: Firas Khalil Khana
@@ -7,7 +7,8 @@ img_src: /r/i/lightweight.png
 img_alt: lightweight
 readtime: 2 minutes
 ---
-<img src="{{ page.img_src }}" alt="DOTSLASHLINUX - {{ page.img_alt }}" class="img-responsive post-img">
+
+<img src="{{page.img_src}}" alt="{{page.img_alt}}">
 
 As most of you are wondering, DOTSLASHLINUX is a new website on the web, aside from that it's a website about all the cool stuff that you can do with a GNU/Linux distro.
 <br>

@@ -1,5 +1,5 @@
 ---
-layout: d
+layout: p
 title: Best slstatus Configuration
 date: 2017-04-24
 author: Firas Khalil Khana
@@ -7,7 +7,8 @@ img_src: /r/i/slstatus.png
 img_alt: slstatus
 readtime: 2 minutes
 ---
-<img src="{{ page.img_src }}" alt="DOTSLASHLINUX - {{ page.img_alt }}" class="img-responsive post-img" style="display: block; margin: 0 auto">
+
+<img src="{{page.img_src}}" alt="{{page.img_alt}}">
 
 In this article I'll show you how to setup and configure slstatus the lightest status bar to use with dwm.
 <br/>

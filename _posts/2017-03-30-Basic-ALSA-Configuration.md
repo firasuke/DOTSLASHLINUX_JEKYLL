@@ -1,5 +1,5 @@
 ---
-layout: d
+layout: p
 title: Basic ALSA Configuration
 date: 2017-03-30 05:00:00
 author: Firas Khalil Khana
@@ -7,7 +7,8 @@ img_src: /r/i/alsa.png
 img_alt: alsa
 readtime: 3 minutes
 ---
-<img src="{{ page.img_src }}" alt="DOTSLASHLINUX - {{ page.img_alt }}" class="img-responsive post-img">
+
+<img src="{{page.img_src}}" alt="{{page.img_alt}}">
 
 In this article I'll show you how to setup ALSA, with a working .asoundrc configuration file that supports multiple applications!
 <br/>

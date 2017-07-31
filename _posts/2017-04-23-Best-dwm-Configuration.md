@@ -1,5 +1,5 @@
 ---
-layout: d
+layout: p
 title: Best dwm Configuration
 date: 2017-04-23
 author: Firas Khalil Khana
@@ -7,7 +7,8 @@ img_src: /r/i/dwm.png
 img_alt: dwm
 readtime: 3 minutes
 ---
-<img src="{{ page.img_src }}" alt="DOTSLASHLINUX - {{ page.img_alt }}" class="img-responsive post-img" style="display: block; margin: 0 auto">
+
+<img src="{{page.img_src}}" alt="{{page.img_alt}}">
 
 In this article I'll show you how to setup dwm and equip it with a nice basic configuration file.
 <br/>
@@ -53,9 +54,9 @@ For those using nano as well, I recommend enabling syntax highlighting since it 
 Once you've opened the configuration file, start editing it and tuning it to your liking. It's pretty straightforward as everything is explained. However, I'm here to provide you with a nice configuration file and save you some time. Here's my configuration file tuned to be used with gentoo:
 <pre class="line-numbers" data-line="93, 108"><code class="language-c">/* appearance */
 static const char *fonts[] = {
-	"terminus:size=10"
+	"xos4 Terminus:size=10"
 };
-static const char dmenufont[]       = "terminus:size=10";
+static const char dmenufont[]       = "xos4 Terminus:size=10";
 static const char normbordercolor[] = "#33393b";
 static const char normbgcolor[]     = "#33393b";
 static const char normfgcolor[]     = "#ffffff";

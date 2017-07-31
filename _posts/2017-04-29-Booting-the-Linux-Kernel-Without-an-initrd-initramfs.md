@@ -1,5 +1,5 @@
 ---
-layout: d
+layout: p
 title: Booting the Linux Kernel Without an initrd/initramfs
 date: 2017-04-29
 author: Firas Khalil Khana
@@ -7,7 +7,8 @@ img_src: /r/i/noinitrd.png
 img_alt: noinitrd
 readtime: 10 minutes
 ---
-<img src="{{ page.img_src }}" alt="DOTSLASHLINUX - {{ page.img_alt }}" class="img-responsive post-img" style="display: block; margin: 0 auto">
+
+<img src="{{page.img_src}}" alt="{{page.img_alt}}">
 
 No, this is not a myth... It's not a legend... It's the truth and it's doable!
 <br/>

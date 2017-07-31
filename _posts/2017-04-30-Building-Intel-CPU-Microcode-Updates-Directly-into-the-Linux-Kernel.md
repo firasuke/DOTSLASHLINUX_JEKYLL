@@ -1,5 +1,5 @@
 ---
-layout: d
+layout: p
 title: Building Intel CPU Microcode Updates Directly into the Linux Kernel
 date: 2017-04-30
 author: Firas Khalil Khana
@@ -7,10 +7,11 @@ img_src: /r/i/microcode.png
 img_alt: microcode
 readtime: 8 minutes
 ---
-<img src="{{ page.img_src }}" alt="DOTSLASHLINUX - {{ page.img_alt }}" class="img-responsive post-img" style="display: block; margin: 0 auto">
-<div class="proud">
-DOTSLASHLINUX is proud to say that part of this article was added to the <a href="https://wiki.gentoo.org/wiki/Intel_microcode#Kernel_3" target="_blank">Gentoo Wiki</a>
-</div>
+
+<img src="{{page.img_src}}" alt="{{page.img_alt}}">
+
+<mark>DOTSLASHLINUX is proud to say that part of this article was added to the <a href="https://wiki.gentoo.org/wiki/Intel_microcode#Kernel_3" target="_blank">Gentoo Wiki</a></mark>
+<br/>
 To achieve our dream of booting the kernel without an initrd/initramfs we have to build our CPU's microcode updates directly into the linux kernel (removing any need for an initrd/initramfs). This is doable, but due to lack of documentation on the process, one may find this thing hard to do. Yes, I know, that's why DOTSLASHLINUX was created xD.
 <br/>
 <br/>

@@ -1,5 +1,5 @@
 ---
-layout: d
+layout: p
 title: Best Lightweight GNU/Linux Distros!
 date: 2017-03-21
 author: Firas Khalil Khana
@@ -7,7 +7,8 @@ img_src: /r/i/lightweight.png
 img_alt: lightweight
 readtime: 7 minutes
 ---
-<img src="{{ page.img_src }}" alt="DOTSLASHLINUX - {{ page.img_alt }}" class="img-responsive post-img">
+
+<img src="{{page.img_src}}" alt="{{page.img_alt}}">
 
 In this article I'll be talking about some lightweight GNU/Linux distro that don't sacrifice conveniency for being lightweight. (Yes I'm looking at you TinyCoreLinux)...
 <br/>
