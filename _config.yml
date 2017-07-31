@@ -5,7 +5,7 @@ description: GNU/Linux Enthusiasts' Hub
 markdown: kramdown
 gems:
   - jekyll-paginate
-paginate: 8
+paginate: 16
 exclude:
   - README.md
   - CNAME
