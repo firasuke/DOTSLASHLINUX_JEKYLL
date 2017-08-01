@@ -52,22 +52,19 @@
       this.field('author');
       this.field('date');
       this.field('readtime');
-    });
+      for (var key in window.store) { // Add the data to lunr
+        this.add({
+          'id': key,
+          'img_src': window.store[key].img_src,
+          'img_alt': window.store[key].img_alt,
+          'title': window.store[key].title,
+          'author': window.store[key].author,
+          'date': window.store[key].date,
+          'readtime': window.store[key].readtime,
+        });
+      }});
 
-    for (var key in window.store) { // Add the data to lunr
-      idx.add({
-        'id': key,
-        'img_src': window.store[key].img_src,
-        'img_alt': window.store[key].img_alt,
-        'title': window.store[key].title,
-        'author': window.store[key].author,
-        'date': window.store[key].date,
-        'readtime': window.store[key].readtime,
-        'commentscount': window.store[key].commentscount,
-      });
-
-      var results = idx.search(searchTerm); // Get lunr to perform a search
-      displaySearchResults(results, window.store); // We'll write this in the next section
-    }
+    var results = idx.search(searchTerm); // Get lunr to perform a search
+    displaySearchResults(results, window.store); // We'll write this in the next section
   }
 })();
