@@ -9,7 +9,7 @@ nav ul{padding:0;}nav li{display:inline;}
 .main,.content{margin:0;padding:0;}
 img{width:100%;height:auto;}
 .deck{background-color:#f7f7f7;padding:10px 10px 0 10px;}
-.card{margin:0 0 20px 0;}.card:hover{opacity:0.9;}.card h3{margin:5px 0 0 0;}
+.card{margin:0 0 20px 0;}.card:hover{opacity:0.9;}.card h3{margin:0;}
 .info{padding:5px;background-color:white;border-top:2px solid black;}
 mark{background-color:#F5F2F0;padding:1px;font-family:mono;border:1px dashed #54487a;}pre{border:1px dashed #54487a;}
 .map{margin:0;padding-bottom:10px;}.map h2{margin:5px 0 15px 0;}.map h3{color:#00A896;}
