@@ -11,15 +11,11 @@ layout: d
 <div id="comments"><h3>{{site.data.comments[page.slug]|size}} Comments</h3>{%endif%}{%if site.data.comments[page.slug]%}{%assign comments = site.data.comments.[page.slug] | sort%}
   <div class="user-comments">{%for comment in comments reversed%}{%assign commentData = comment[1]%}{%assign r = commentData.replying_to%}
     {%if r == ''%}<div class="main-comment">
-      <h4>{{commentData.name}} said</h4>
-      <h6>{{commentData.date|date:"%d/%m/%Y | %r"}}</h6>
-      <h5>{{commentData.comment|markdownify}}</h5>
+      <h4>{{commentData.name}}</h4><h6>{{commentData.date|date:"%d/%m/%Y | %r"}}</h6><h5>{{commentData.comment|markdownify}}</h5>
       <a href="{{page.url}}#leavecomment"><button type="submit">./REPLY</button></a>
     </div>{%for commentr in comments%}{%assign commentrData = commentr[1]%}
     {%if commentrData.replying_to == commentData._id%}<div class="replies">
-      <h4>{{commentrData.name}} said</h4>
-      <h6>{{commentrData.date|date:"%d/%m/%Y | %r"}}</h6>
-      <h5>{{commentrData.comment|markdownify}}</h5>
+      <h4>{{commentrData.name}}</h4><h6>{{commentrData.date|date:"%d/%m/%Y | %r"}}</h6><h5>{{commentrData.comment|markdownify}}</h5>
     </div>{%endif%}{%endfor%}{%endif%}{%endfor%}
   </div>
   {% endif %}
