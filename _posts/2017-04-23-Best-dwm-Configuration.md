@@ -7,9 +7,6 @@ img_src: /r/i/dwm.png
 img_alt: dwm
 readtime: 3 minutes
 ---
-
-<img src="{{page.img_src}}" alt="{{page.img_alt}}">
-
 In this article I'll show you how to setup dwm and equip it with a nice basic configuration file.
 <br/>
 <hr/>

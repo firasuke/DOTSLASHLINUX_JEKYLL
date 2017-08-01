@@ -1,13 +1,11 @@
 ---
 layout: d
 ---
-<div class="row">
-{%for post in paginator.posts%}
-<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 bigcard">
-  <div class="box card">
-    <a href="{{post.url}}"><div class="info"><small>{{post.author}}<br/>{{post.date|date: "%d/%m/%Y"}} | {{post.readtime}} read</small></div>
-    <img src="{{post.img_src}}"><h3>{{post.title}}</h3></a>
-  </div>
-</div>
-{%endfor%}
+<div class="row">{%for post in paginator.posts%}
+  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+    <div class="box card">
+      <a href="{{post.url}}"><div class="info"><small>{{post.author}}<br/>{{post.date|date: "%d/%m/%Y"}} | {{post.readtime}} read</small></div>
+        <img src="{{post.img_src}}" alt="{{post.img_alt}}"><h3>{{post.title}}</h3></a>
+    </div>
+  </div>{%endfor%}
 </div>

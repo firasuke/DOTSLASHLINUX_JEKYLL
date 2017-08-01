@@ -7,9 +7,6 @@ img_src: /r/i/noinitrd.png
 img_alt: noinitrd
 readtime: 10 minutes
 ---
-
-<img src="{{page.img_src}}" alt="{{page.img_alt}}">
-
 No, this is not a myth... It's not a legend... It's the truth and it's doable!
 <br/>
 <br/>

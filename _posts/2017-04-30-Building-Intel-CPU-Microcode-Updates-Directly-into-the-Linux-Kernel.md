@@ -7,9 +7,6 @@ img_src: /r/i/microcode.png
 img_alt: microcode
 readtime: 8 minutes
 ---
-
-<img src="{{page.img_src}}" alt="{{page.img_alt}}">
-
 <mark>./LINUX is proud to say that part of this article was added to the <a href="https://wiki.gentoo.org/wiki/Intel_microcode#Kernel_3" target="_blank">Gentoo Wiki</a></mark>
 <br/>
 <br/>

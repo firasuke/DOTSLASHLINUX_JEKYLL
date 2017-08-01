@@ -27,9 +27,9 @@
         </div>
       </div>
     </div>
-    <div class="row">
+    <div class="row content">
       <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
-        <div class="box">{{content}}</div>
+        <div class="box deck">{{content}}</div>
       </div>
       <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 side">
         {%if paginator.total_pages > 1%}<div class="box">
@@ -43,9 +43,14 @@
             <button type="submit">./GO</button>
           </form>
         </div>
+        <div class="box">
+          Popular Articles
+          <ul>
+          </ul>
+        </div>
       </div>
     </div>
-    <footer><h5>Copyright &copy; 2017 ./LINUX | Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></h5></footer>
+    <footer><h4>Copyright &copy; 2017 ./LINUX | Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></h4></footer>
     <script src="{{site.url}}/r/j/p.min.js"></script><script src="{{site.url}}/r/j/l.min.js"></script><script src="{{site.url}}/r/j/s.js"></script>
   </body>
 </html>

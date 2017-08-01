@@ -7,9 +7,6 @@ img_src: /r/i/slstatus.png
 img_alt: slstatus
 readtime: 2 minutes
 ---
-
-<img src="{{page.img_src}}" alt="{{page.img_alt}}">
-
 In this article I'll show you how to setup and configure slstatus the lightest status bar to use with dwm.
 <br/>
 <hr/>

@@ -1,12 +1,15 @@
-*{font-weight:100;}body{font-family:sans;}
+*{font-weight:100;}body{font-family:sans;margin:0;padding:0;}
 a{text-decoration:none;color:black;}a:hover,.cur a{border-bottom:2px solid #00A896;}
 input,button{padding:5px;margin:0;}
-footer{text-align:center;background-color:#333333;color:white;margin:10px 0 0 0;}footer a{color:white;}
+footer{border:1px solid #333333;text-align:center;background-color:#333333;color:white;}footer a{color:white;}
 li{list-style-type:none;}
-.header{margin:0 0 10px 0;background-color:#333333;}.header a{margin:0 0 0 10px;color:white;}
-nav ul{margin:0;padding:0;}nav li{display:inline;}
+.header{margin:0;background-color:#333333;}.header a{margin:0 0 0 10px;color:white;}
+nav ul{margin:10px;padding:0;}nav li{display:inline;}
+.content{margin:0px;}
 img{width:100%;height:auto;}
-.card a:hover{opacity:0.9;}.card h3{margin-top:3px;}
+.deck{background-color:#f7f7f7;padding:10px 10px 0 10px;}
+.card{margin:0 0 20px 0;}.card:hover{opacity:0.9;}.card h3{margin:5px 0 0 0;}
 .info{padding:5px;background-color:white;border-top:2px solid black;}
 mark{background-color:#F5F2F0;padding:1px;font-family:mono;border:1px dashed #54487a;}pre{border:1px dashed #54487a;}
-.side{text-align:center;}
+.map{margin:0;padding-bottom:10px;}.map h2{margin:5px 0 15px 0;}
+.side{padding:10px;text-align:center;}.side .box{margin:10px 0 10px 0;}

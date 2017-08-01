@@ -7,9 +7,6 @@ img_src: /r/i/lightweight.png
 img_alt: lightweight
 readtime: 11 minutes
 ---
-
-<img src="{{page.img_src}}" alt="{{page.img_alt}}">
-
 In this article I'll be listing some of the lightest applications the GNU/Linux world has to offer, some of which you may know and some not. These applications will not only be lightweight but will not sacrifice that much convenience for the performance and low memory footprint they offer.
 <br/>
 <br/>

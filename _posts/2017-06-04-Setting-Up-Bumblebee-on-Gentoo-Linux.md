@@ -7,9 +7,6 @@ img_src: /r/i/bumblebee.png
 img_alt: bumblebee
 readtime: 15 minutes
 ---
-
-<img src="{{page.img_src}}" alt="{{page.img_alt}}">
-
 Optimus support on a GNU/Linux distro has always been a hassle thanks to NVIDIA... Therefore projects were created to compensate for this powersaving feature. Enter bumblebee a project aimed to replicate NVIDIA's optimus function on GNU/Linux!.
 <br/>
 <br/>
