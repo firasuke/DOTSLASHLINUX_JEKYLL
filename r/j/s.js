@@ -15,9 +15,9 @@
         var item = store[results[i].ref];
 
         appendString += '<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="box card">';
-        appendString += '<a href="' + item.url + '">' + '<div class="info"><small>' + item.author + '<br/>' + item.date;
-        appendString += ' | ' + item.readtime + ' read</small></div>';
-        appendString += '<img src="' + item.imgsrc + '" alt="' + item.imgalt + '"><h3>' + item.title + '</h3></a></div></div>';
+        appendString += '<a href="'+item.url+'">'+'<div class="info"><small>'+item.author+'<br/>'+item.date;
+        appendString += ' | '+item.readtime+' read | '+item.commentscount+'</small></div>'; 
+        appendString += '<img src="'+item.imgsrc+'" alt="'+item.imgalt+'"><h3>'+item.title+'</h3></a></div></div>';
       }
       searchResults.innerHTML = appendString;
     } else {
