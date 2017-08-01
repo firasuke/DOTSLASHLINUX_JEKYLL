@@ -1,0 +1,15 @@
+comments:
+  allowedFields: ["name", "comment", "replying_to"]
+  branch: "gh-pages"
+  commitMessage: "New Comment"
+  filename: "comment-{@timestamp}"
+  format: "yaml"
+  generatedFields:
+    date:
+      type: date
+      options:
+        format: "iso8601"
+  moderation: true
+  name: "dotslashlinux.com"
+  path: "_data/comments/{options.slug}"
+  requiredFields: ["name", "comment"]

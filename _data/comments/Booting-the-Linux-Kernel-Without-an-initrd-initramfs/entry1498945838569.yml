@@ -1,0 +1,5 @@
+_id: 51b58750-5ea7-11e7-86d0-f3e2da84fd3f
+replying_to: ''
+name: atbd
+comment: "For more minimalist setup and if you have/like uefi, it can boot directly your kernel.\r\nYou just need efi support in the kernel and your vmlinuz as /boot/efi/boot/bootx64.efi  :)"
+date: '2017-07-01T21:50:38.563Z'
