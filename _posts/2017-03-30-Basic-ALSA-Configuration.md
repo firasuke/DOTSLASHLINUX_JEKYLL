@@ -3,8 +3,8 @@ layout: p
 title: Basic ALSA Configuration
 date: 2017-03-30 05:00:00
 author: Firas Khalil Khana
-img_src: /r/i/alsa.png
-img_alt: alsa
+imgsrc: /r/i/alsa.png
+imgalt: alsa
 readtime: 3 minutes
 ---
 In this article I'll show you how to setup ALSA, with a working .asoundrc configuration file that supports multiple applications!

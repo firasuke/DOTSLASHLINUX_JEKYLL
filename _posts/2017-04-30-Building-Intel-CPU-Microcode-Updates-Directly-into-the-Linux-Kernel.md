@@ -3,8 +3,8 @@ layout: p
 title: Building Intel CPU Microcode Updates Directly into the Linux Kernel
 date: 2017-04-30
 author: Firas Khalil Khana
-img_src: /r/i/microcode.png
-img_alt: microcode
+imgsrc: /r/i/microcode.png
+imgalt: microcode
 readtime: 8 minutes
 ---
 <mark>./LINUX is proud to say that part of this article was added to the <a href="https://wiki.gentoo.org/wiki/Intel_microcode#Kernel_3" target="_blank">Gentoo Wiki</a></mark>

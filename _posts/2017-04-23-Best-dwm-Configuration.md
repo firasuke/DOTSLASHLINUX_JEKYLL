@@ -3,8 +3,8 @@ layout: p
 title: Best dwm Configuration
 date: 2017-04-23
 author: Firas Khalil Khana
-img_src: /r/i/dwm.png
-img_alt: dwm
+imgsrc: /r/i/dwm.png
+imgalt: dwm
 readtime: 3 minutes
 ---
 In this article I'll show you how to setup dwm and equip it with a nice basic configuration file.

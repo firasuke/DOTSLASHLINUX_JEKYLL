@@ -3,8 +3,8 @@ layout: p
 title: Starting Xorg Server using xinit
 date: 2017-03-29
 author: Firas Khalil Khana
-img_src: /r/i/startx.png
-img_alt: startx
+imgsrc: /r/i/startx.png
+imgalt: startx
 readtime: 5 minutes
 ---
 In this article I'll show you how to correctly setup xinit to start your xorg server. I'll also demonstrate how you can auto startx once logged in a tty.

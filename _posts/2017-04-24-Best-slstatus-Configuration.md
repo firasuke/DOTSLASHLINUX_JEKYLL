@@ -3,8 +3,8 @@ layout: p
 title: Best slstatus Configuration
 date: 2017-04-24
 author: Firas Khalil Khana
-img_src: /r/i/slstatus.png
-img_alt: slstatus
+imgsrc: /r/i/slstatus.png
+imgalt: slstatus
 readtime: 2 minutes
 ---
 In this article I'll show you how to setup and configure slstatus the lightest status bar to use with dwm.

@@ -3,8 +3,8 @@ layout: p
 title: What is ./LINUX?
 date: 2017-03-20
 author: Firas Khalil Khana
-img_src: /r/i/lightweight.png
-img_alt: lightweight
+imgsrc: /r/i/lightweight.png
+imgalt: lightweight
 readtime: 2 minutes
 ---
 As most of you are wondering, ./LINUX is a new website on the web, aside from that it's a website about all the cool stuff that you can do with a GNU/Linux distro.

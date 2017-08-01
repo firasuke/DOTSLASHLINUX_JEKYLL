@@ -6,11 +6,11 @@ li{list-style-type:none;}
 .header{margin:0;background-color:#333333;}.header a{margin:0 0 0 10px;color:white;}
 nav ul{padding:0;}nav li{display:inline;}
 .search{margin:10px;}
-.content{margin:0px;}
+.main,.content{margin:0;padding:0;}
 img{width:100%;height:auto;}
 .deck{background-color:#f7f7f7;padding:10px 10px 0 10px;}
 .card{margin:0 0 20px 0;}.card:hover{opacity:0.9;}.card h3{margin:5px 0 0 0;}
 .info{padding:5px;background-color:white;border-top:2px solid black;}
 mark{background-color:#F5F2F0;padding:1px;font-family:mono;border:1px dashed #54487a;}pre{border:1px dashed #54487a;}
-.map{margin:0;padding-bottom:10px;}.map h2{margin:5px 0 15px 0;}
+.map{margin:0;padding-bottom:10px;}.map h2{margin:5px 0 15px 0;}.map h3{color:#00A896;}
 .side{padding:10px;text-align:center;}.side .box{margin:10px 0 10px 0;}.side ul{margin:0;padding:0;}

@@ -3,8 +3,8 @@ layout: p
 title: Configuring rxvt-unicode (urxvt)
 date: 2017-03-30 02:00:00
 author: Firas Khalil Khana
-img_src: /r/i/urxvtc.png
-img_alt: urxvtc
+imgsrc: /r/i/urxvtc.png
+imgalt: urxvtc
 readtime: 3 minutes
 ---
 In this article I'll show you how to get your urxvt daemon up and running, and give you a nice configuration file for urxvtc to use!

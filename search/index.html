@@ -1,12 +1,12 @@
 ---
 layout: d
 ---
-<div id="search-results"></div>
+<div class="row" id="search-results"></div>
 <script>window.store={
 {%for post in site.posts reversed%}
 "{{post.url | slugify}}": {
-  "img_src":"{{post.img_src | xml_escape}}",
-  "img_alt":"{{post.img_alt | xml_escape}}",
+  "imgsrc":"{{post.imgsrc | xml_escape}}",
+  "imgalt":"{{post.imgalt | xml_escape}}",
   "title":"{{post.title | xml_escape}}",
   "author":"{{post.author | xml_escape}}",
   "date":"{{post.date | date: '%d/%m/%Y'}}",

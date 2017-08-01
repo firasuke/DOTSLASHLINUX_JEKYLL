@@ -10,13 +10,14 @@
       } else if (results.length > 1) {
         appendString += '<h3>' + results.length + ' search results were found</h3>';
       }
-
+      
       for (var i = 0; i < results.length; i++) { // Iterate over the results
         var item = store[results[i].ref];
 
-        appendString += '<a href="' + item.url + '">' + '<img src="' + item.img_src + '" alt ="DOTSLASHLINUX - ' + item.img_alt + '" class="img-responsive post-img"></a>';
-        appendString += '<h3><a href="' + item.url + '">' + item.title + '</a></h3>';
-        appendString += '<h5>Written on ' + item.date + ' by <em>' + item.author + '</em></h5>';
+        appendString += '<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="box card">';
+        appendString += '<a href="' + item.url + '">' + '<div class="info"><small>' + item.author + '<br/>' + item.date;
+        appendString += ' | ' + item.readtime + ' read</small></div>';
+        appendString += '<img src="' + item.imgsrc + '" alt="' + item.imgalt + '"><h3>' + item.title + '</h3></a></div></div>';
       }
       searchResults.innerHTML = appendString;
     } else {

@@ -3,8 +3,8 @@ layout: p
 title: Optimal mpv Configuration
 date: 2017-03-31
 author: Firas Khalil Khana
-img_src: /r/i/mpv.png
-img_alt: mpv
+imgsrc: /r/i/mpv.png
+imgalt: mpv
 readtime: 2 minutes
 ---
 In this article I'll show you how to setup mpv and arm it up with the best mpv.config file (in terms of performance and resource usage).
