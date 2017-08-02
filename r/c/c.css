@@ -3,7 +3,7 @@ a{text-decoration:none;color:black;}a:hover,.cur a{border-bottom:2px solid #00a8
 input,button{padding:5px;}
 footer{border:1px solid #333333;text-align:center;background-color:#333333;color:white;}footer a{color:white;}
 li{list-style-type:none;}
-.header{margin:0;background-color:#333333;}.header a{margin:0 0 0 10px;color:white;}
+.header{margin:0;background-color:#333333;}.header a{color:white;}
 nav ul{padding:0;}nav li{display:inline;}
 .search{margin:10px;}
 .main,.content{margin:0;padding:0;}
