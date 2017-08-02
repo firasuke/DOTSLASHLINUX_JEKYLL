@@ -4,10 +4,8 @@ layout: d
 <div class="map">
   <h2>{{page.title}}</h2>
   <div class="info"><small>{{page.author}}<br/>{{page.date|date: "%d/%m/%Y"}} | {{page.readtime}}</small></div>
-  <img src="{{page.imgsrc}}" alt="{{page.imgalt}}">
-  <p>{{page.content}}</p>
-</div>
-{% if site.data.comments[page.slug] %}
+  <img src="{{page.imgsrc}}" alt="{{page.imgalt}}"><p>{{page.content}}</p>
+</div>{% if site.data.comments[page.slug] %}
 <div id="comments"><h3>{{site.data.comments[page.slug]|size}} Comments</h3>{%endif%}{%if site.data.comments[page.slug]%}{%assign comments = site.data.comments.[page.slug] | sort%}
   <div class="user-comments">{%for comment in comments reversed%}{%assign commentData = comment[1]%}{%assign r = commentData.replying_to%}
     {%if r == ''%}<div class="main-comment">
@@ -17,8 +15,7 @@ layout: d
     {%if commentrData.replying_to == commentData._id%}<div class="replies">
       <h4>{{commentrData.name}}</h4><h6>{{commentrData.date|date:"%d/%m/%Y | %r"}}</h6><h5>{{commentrData.comment|markdownify}}</h5>
     </div>{%endif%}{%endfor%}{%endif%}{%endfor%}
-  </div>
-  {% endif %}
+  </div>{% endif %}
   <div id="leavecomment">
     <h3>Leave A Comment</h3>
     <form method="POST" action="https://api.staticman.net/v2/entry/firasuke/DOTSLASHLINUX/gh-pages/comments">
