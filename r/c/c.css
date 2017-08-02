@@ -15,4 +15,5 @@ mark{background-color:#f5f2f0;padding:1px;font-family:mono;border:1px dashed #54
 .map{margin:0;padding-bottom:10px;}.map h2{margin:5px 0 15px 0;}.map h3{color:#00a896;}
 #comments h3{text-align:center;}
 .main-comment,.replies{background-color:#dadada;padding:1px 10px 10px 10px;}.main-comment{margin:10px 0 10px 0;}.replies{border-left:2px solid #00a896;margin:10px 0 10px 30px;}
+#leavecomment input,textarea,button{width:100%;box-sizing:border-box;margin:10px 0 10px 0;}
 .side{padding:10px;text-align:center;}.side .box{margin:10px 0 10px 0;}.side ul{margin:0;padding:0;}
