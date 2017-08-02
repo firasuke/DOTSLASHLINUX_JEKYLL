@@ -185,7 +185,7 @@ Now run:
 As you can see, (C, 3, 6, 0) are popping wherever I looked. You may simply choose to stop here if the signature was pretty obvious to you and you could easily identify the correct microcode update file to use (in my case I can easily tell that it's <mark>06-3c-03</mark>).
 <br/>
 <br/>
-However, (as one of our penguins <em>"atbd"</em> suggested) we can use <mark>iucode_tool</mark> to identify the correct microcode update file (and with the magic of grep):
+Now we can use <mark>iucode_tool</mark> to identify the correct microcode update file (and with the magic of grep):
 <pre><code class="language-bash">iucode_tool -L /lib/firmware/intel-ucode | grep 0x000306c3 -B 1</code></pre>
 <pre data-line="1"><code class="language-bash">microcode bundle 26: /lib/firmware/intel-ucode/06-3c-03
   026/001: sig 0x000306c3, pf_mask 0x32, 2017-01-27, rev 0x0022, size 22528
