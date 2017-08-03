@@ -2,7 +2,7 @@ comments:
   allowedFields: ["name", "comment", "replying_to"]
   branch: "gh-pages"
   commitMessage: "New Comment"
-  filename: "comment-{@timestamp}"
+  filename: "c{@timestamp}"
   format: "yaml"
   generatedFields:
     date:
