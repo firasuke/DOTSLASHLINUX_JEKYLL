@@ -1,1 +1,129 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">{%if page.title%}{%capture title%}{{page.title}} | ./LINUX {%endcapture%}{%else%}{%capture title%} Are You Ready? (Y/Y) | ./LINUX{%endcapture%}{%endif%}<title>{{title}}</title><meta name="description" content="./LINUX is a GNU/Linux enthusiasts' hub, featuring configuration guides for the linux kernel and several lightweight open source and free software."><meta name="author" content="Firas Khalil Khana"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"><link rel="stylesheet" href="/r/c/f.min.css"><link rel="stylesheet" href="/r/c/c.css"><link rel="stylesheet" href="/r/c/p.min.css"><link rel="alternate" type="application/rss+xml" title="./LINUX RSS" href="/feed.xml"></head><body><div class="row middle-xs middle-sm middle-md middle-lg header"><div class="col-xs-12 center-xs col-sm-3 start-sm col-md-3 start-md col-lg-3 start-lg"><div class="box"><h1 id="brand"><a href="{{site.url}}">./LINUX</a></h1></div></div><div class="col-xs-12 center-xs col-sm-5 center-sm col-md-5 center-md col-lg-5 center-lg"><div class="box"><nav><ul><li class="{%if page.url == '/' or page.url == '/page2/'%}cur{%endif%}"><a href="/">./HOME</a></li><li class="{%if page.url == '/about/'%}cur{%endif%}"><a href="/about/">./ABOUT</a></li><li><a href="/feed.xml">./RSS</a></li></ul></nav></div></div><div class="col-xs-12 center-xs col-sm-4 end-sm col-md-4 end-md col-lg-4 end-lg"><div class="box search"><form action="{{site.url}}/search/" method="get"><input type="text" id="search-box" name="query" placeholder="./SEARCH"><button type="submit">./GO</button></form></div></div></div><div class="row main"><div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 content"><div class="box deck">{{content}}</div></div></div>{%if paginator.total_pages > 1%}<span>({{paginator.page}}/{{paginator.total_pages}})</span>{%if paginator.previous_page %}<a href="{{paginator.previous_page_path}}">Previous</a>{%endif%}{%if paginator.next_page%}<a href="{{ paginator.next_page_path }}">Next</a>{%endif%}{%endif%}<footer><h4>Copyright &copy; 2017 ./LINUX | Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></h4></footer><script src="/r/j/p.min.js"></script><script src="/r/j/l.min.js"></script><script src="/r/j/s.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">{%if page.title%}{%capture title%}{{page.title}} | ./LINUX {%endcapture%}{%else%}{%capture title%} Are You Ready? (Y/Y) | ./LINUX{%endcapture%}{%endif%}
+    <title>{{title}}</title>
+    <meta name="description" content="DOTSLASHLINUX is a GNU/Linux enthusiasts' hub, featuring configuration guides for the linux kernel and several lightweight open source and free software.">
+    <meta name="author" content="Firas Khalil Khana">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" href="/r/c/f.min.css">
+    <link rel="stylesheet" href="/r/c/c.css">
+    <link rel="stylesheet" href="/r/c/p.min.css">
+    <link rel="alternate" type="application/rss+xml" title="./LINUX RSS" href="/feed.xml">
+  </head>
+
+  <body>
+    <div class="row middle-xs middle-sm middle-md middle-lg header container">
+        <div class="col-xs-12 center-xs col-sm-4 start-sm col-md-4 start-md col-lg-4 start-lg">
+          <div class="box">
+            <h1 id="brand"><a href="{{site.url}}">DOTSLASHLINUX</a></h1>
+          </div>
+        </div>
+
+        <div class="col-xs-12 center-xs col-sm-8 end-sm col-md-8 end-md col-lg-8 end-lg">
+          <div class="box">
+            <nav>
+              <ul>
+                <li class="{%if page.url== '/' or page.url=='/page2/'%}cur{%endif%}"><a href="/">HOME</a></li>
+                <li class="{%if page.url=='/about/'%}cur{%endif%}"><a href="/about/">ABOUT</a></li>
+                <li><a href="/feed.xml">RSS</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+    </div>
+
+    <div class="row main container">
+
+      <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 content">
+        {%if page.url=='/'%}{%assign fp=site.posts.first%}<div class="box first">
+          <a href="{{fp.url}}">
+            <h2>{{fp.title}}</h2>
+            <div class="frame"><img src="{{fp.imgsrc}}" alt="{{fp.imgalt}}"></div>
+          </a>
+        </div>{%endif%}
+        <div class="box deck">
+          {%if page.url=='/'%}<h2>Latest Articles{%if paginator.total_pages > 1%}
+          <span>({{paginator.page}}/{{paginator.total_pages}})</span>{%if paginator.previous_page%}
+          <a href="{{paginator.previous_page_path}}">Previous</a>{%endif%}{%if paginator.next_page%}
+          <a href="{{ paginator.next_page_path }}">Next</a>{%endif%}
+          {%endif%}</h2>{%endif%}
+          {{content}}
+        </div>
+        {%if page.url=='/'%}
+        <div class="box popular">
+          <h2>Popular Articles</h2>
+          <div class="row">
+            {%for post in site.tags.popular%}
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+              <div class="box card">
+                <a href="{{post.url}}">
+                  <div class="frame"><img src="{{post.imgsrc}}" alt="{{post.imgalt}}"></div>
+                  <h3>{{post.title}}</h3></a>
+              </div>
+            </div>
+            {%endfor%}
+          </div>
+        </div>
+        {%endif%}
+      </div>
+
+      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 side">
+        
+        <div class="box search">
+          <h3>Search DOTSLASHLINUX</h3>
+          <form action="{{site.url}}/search/" method="get">
+            <input type="text" id="search-box" name="query">
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+        <div class="box distros">
+          <h3>Recommended Distros</h3>
+          <ul>
+            <li id="gentoo"><a href="https://www.gentoo.org/" target="_blank">Gentoo Linux</a></li>
+            <li id="void"><a href="https://www.voidlinux.eu/" target="_blank">Void Linux</a></li>
+            <li id="arch"><a href="https://www.archlinux.org/" target="_blank">Arch Linux</a></li>
+          </ul>
+        </div>
+        <div class="box upcoming">
+          <h3>Upcoming Articles</h3>
+          <ul>
+            <li>Kernel Configuration Guide Part 1</li>
+            <li>Kernel Configuration Guide Part 2</li>
+            <li>Kernel Configuration Guide Part 3</li>
+            <li>Kernel Configuration Guide Part 4</li>
+            <li>Kernel Configuration Guide Part 5</li>
+            <li>Kernel Configuration Guide Part 6</li>
+            <li>Kernel Configuration Guide Part 7</li>
+          </ul>
+        </div>
+        <div class="box suggestions">
+          <h3>Suggestions</h3>
+          <p>Apart from the comments' section, if you wanted to see an article on how to configure a certain application for a GNU/Linux distro, or wanted to share one (perhaps one that you've written), feel free to send me an email on:<br/><br/>firasuke@gmail.com</p>
+        </div>
+        <div class="box donate">
+          <h3>Donate</h3>
+          <p>PayPal: <a href="https://www.paypal.me/DOTSLASHLINUX/5" target="_blank">firasuke@gmail.com</a></p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row footer container">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="box">
+          <h4>Copyright &copy; 2017 DOTSLASHLINUX | Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></h4>
+        </div>
+      </div>
+    </div>
+
+    <script src="/r/j/p.min.js"></script>
+    <script src="/r/j/l.min.js"></script>
+    <script src="/r/j/s.js"></script>
+
+  </body>
+
+</html>

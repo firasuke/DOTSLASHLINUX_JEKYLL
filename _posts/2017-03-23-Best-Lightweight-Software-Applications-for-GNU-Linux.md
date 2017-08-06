@@ -6,6 +6,7 @@ author: Firas Khalil Khana
 imgsrc: /r/i/lightweight.png
 imgalt: lightweight
 readtime: 11 minutes
+tags: popular
 ---
 In this article I'll be listing some of the lightest applications the GNU/Linux world has to offer, some of which you may know and some not. These applications will not only be lightweight but will not sacrifice that much convenience for the performance and low memory footprint they offer.
 <br/>

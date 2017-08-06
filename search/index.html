@@ -1,4 +1,19 @@
 ---
 layout: d
 ---
-<div class="row" id="search-results"></div><script>window.store={ {%for post in site.posts%}"{{post.url | slugify}}":{"imgsrc":"{{post.imgsrc|xml_escape}}","imgalt":"{{post.imgalt|xml_escape}}","title":"{{post.title|xml_escape}}","author":"{{post.author|xml_escape}}","date":"{{post.date|date:'%d/%m/%Y'}}","readtime":"{{post.readtime|xml_escape}}","commentscount":"{%assign cc=site.data.c[post.slug]|size%}{%if cc != 1%}{{cc}} Comments{%elsif cc == 1%}{{cc}} Comment{% endif %}{{|xml_escape}}","url":"{{post.url|xml_escape}}"}{%unless forloop.last%},{%endunless%}{%endfor%}};</script>
+<div class="row" id="search-results">
+  <h2>Search Results</h2>
+</div>
+<script>
+window.store= { {%for post in site.posts%}
+"{{post.url | slugify}}": {
+  "imgsrc":"{{post.imgsrc|xml_escape}}",
+  "imgalt":"{{post.imgalt|xml_escape}}",
+  "title":"{{post.title|xml_escape}}",
+  "author":"{{post.author|xml_escape}}",
+  "date":"{{post.date|date:'%d/%m/%Y'}}",
+  "readtime":"{{post.readtime|xml_escape}}",
+  "commentscount":"{%assign cc=site.data.c[post.slug]|size%}{%if cc != 1%}{{cc}} Comments{%elsif cc == 1%}{{cc}} Comment{% endif %}{{|xml_escape}}",
+  "url":"{{post.url|xml_escape}}"}
+{%unless forloop.last%},{%endunless%}{%endfor%}};
+</script>

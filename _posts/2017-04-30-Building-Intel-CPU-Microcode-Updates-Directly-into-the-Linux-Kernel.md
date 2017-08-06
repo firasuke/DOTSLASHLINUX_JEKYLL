@@ -6,6 +6,7 @@ author: Firas Khalil Khana
 imgsrc: /r/i/microcode.png
 imgalt: microcode
 readtime: 8 minutes
+tags: popular
 ---
 <mark>./LINUX is proud to say that part of this article was added to the <a href="https://wiki.gentoo.org/wiki/Intel_microcode#Kernel_3" target="_blank">Gentoo Wiki</a></mark>
 <br/>

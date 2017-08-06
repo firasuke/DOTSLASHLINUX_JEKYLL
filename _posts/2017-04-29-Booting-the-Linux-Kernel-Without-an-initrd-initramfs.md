@@ -6,6 +6,7 @@ author: Firas Khalil Khana
 imgsrc: /r/i/noinitrd.png
 imgalt: noinitrd
 readtime: 10 minutes
+tags: popular
 ---
 No, this is not a myth... It's not a legend... It's the truth and it's doable!
 <br/>

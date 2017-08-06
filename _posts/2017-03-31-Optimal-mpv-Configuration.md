@@ -6,6 +6,7 @@ author: Firas Khalil Khana
 imgsrc: /r/i/mpv.png
 imgalt: mpv
 readtime: 2 minutes
+tags: popular
 ---
 In this article I'll show you how to setup mpv and arm it up with the best mpv.config file (in terms of performance and resource usage).
 <br/>
