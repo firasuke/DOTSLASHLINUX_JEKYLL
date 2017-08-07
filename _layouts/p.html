@@ -15,7 +15,7 @@ layout: d
       <h6>{{cd.date|date:"%d/%m/%Y | %r"}}</h6>
       <h5>{{cd.comment|markdownify}}</h5>
       <a href="{{page.url}}#leavecomment">
-        <button type="submit">./REPLY</button>
+        <button onclick="document.getElementById('reply').attr('value',{{cd._id}})">./REPLY</button>
       </a>
     </div>{%for commentr in c%}{%assign crd = commentr[1]%}{%if crd.replying_to == cd._id%}
     <div class="replies">
@@ -24,10 +24,10 @@ layout: d
       <h5>{{crd.comment|markdownify}}</h5></div>{%endif%}{%endfor%}{%endif%}{%endfor%}</div>{% endif %}
   <div id="leavecomment">
     <h3>Leave A Comment</h3>
-    <form method="POST" action="https://api.staticman.net/v2/entry/firasuke/DOTSLASHLINUX/gh-pages/comments">
+    <form method="POST" action="https://api.staticman.net/v2/entry/firasuke/DOTSLASHLINUX/gh-pages/c">
       <input name="options[redirect]" type="hidden" value="/{{page.url}}">
       <input name="options[slug]" type="hidden" value="{{page.slug}}">
-      <input type="hidden" id="reply-button" name="fields[replying_to]" value="">
+      <input type="hidden" id="reply" name="fields[replying_to]" value="">
       <input name="fields[name]" type="text">
       <br/>
       <textarea rows="5" name="fields[comment]"></textarea>
