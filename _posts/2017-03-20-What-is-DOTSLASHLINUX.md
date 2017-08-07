@@ -1,13 +1,13 @@
 ---
 layout: p
-title: What is ./LINUX?
+title: What is DOTSLASHLINUX?
 date: 2017-03-20
 author: Firas Khalil Khana
 imgsrc: /r/i/lightweight.png
 imgalt: lightweight
 readtime: 2 minutes
 ---
-./LINUX is a new website on the web (duh), aside from that it's a website about all the cool stuff that you can do with a GNU/Linux distro.
+DOTSLASHLINUX is a new website on the web (duh), aside from that it's a website about all the cool stuff that you can do with a GNU/Linux distro.
 <br>
 <br>
 <br>
@@ -23,7 +23,7 @@ I'll be discussing the pros/cons of almost every single option you have to go th
 <br>
 <br>
 <br>
-But doesn't that mean that I'll be neglecting userspace, convenience and productivity. Well, at first it may be time consuming for those who're doing it on their own;therefore, on ./LINUX you'll get the real results about what to pick and how to optimally configure it.
+But doesn't that mean that I'll be neglecting userspace, convenience and productivity. Well, at first it may be time consuming for those who're doing it on their own;therefore, on DOTSLASHLINUX you'll get the real results about what to pick and how to optimally configure it.
 <br>
 <br>
 <br>

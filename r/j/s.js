@@ -8,9 +8,9 @@
         appendString += '<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4"><div class="box card">'+
           '<a href="'+item.url+'">'+'<div class="frame"><img src="'+item.imgsrc+'" alt="'+item.imgalt+'"></div><h3>'+
           item.title+'</h3></a></div></div>'} 
-      sr.innerHTML = appendString;}
+      sr.innerHTML += appendString;}
     else{
-      sr.innerHTML = '<h3>No results found</h3>';
+      sr.innerHTML += '<h3>No results found</h3>';
     }
   }
   function getQueryVariable(variable){

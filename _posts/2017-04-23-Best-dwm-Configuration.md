@@ -68,7 +68,7 @@ static const int topbar             = 1;        /* 0 means bottom bar */
 /* tagging */
 /* I'm using a single tag as I don't require more. If you want more tags use this instead and as many tags as you want: */
 /* static const char *tags[] = {"1", "2", "3", "4", "5"}; */
-static const char *tags[] = {"./LINUX"};
+static const char *tags[] = {"DOTSLASHLINUX"};
 
 /* rules */
 static Rule rules[] = {
