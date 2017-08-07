@@ -16,16 +16,12 @@ Let's define some rough outlines before venturing any further. The distros that 
 <br/>
 
 
-<h3><span class="line-center"><a href="https://gentoo.org/" target="_blank">Gentoo Linux</a></span></h3>
-<a href="https://gentoo.org/" target="_blank"><img src="https://www.gentoo.org/assets/img/wallpaper/gentoo-10/purple/1920x1080.jpg" alt="gentoolinuxlogo" class="img-responsive"></a>
-<div style="text-align: center">Credits to <strong>" Ben Stedman "</strong> and <strong>" Alex Legler "</strong> for this image | Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a></div>
-<br/>
-
+<h3><a href="https://gentoo.org/" target="_blank">Gentoo Linux</a></h3>
 Who didn't see this coming... The truth is that gentoo is an awesome independent source-based rolling-release GNU/Linux Distro. What that means is that you download the source code of the packages you want and build them. The devs were kind enough to provide a precompiled version of the basic files used for the installation of gentoo known as stages.
 <br/>
 <br/>
 
-<strong>" But wait aren't source files bigger than their compiled relatives? "</strong>, bigger yes as they take more space, but once you've compiled the package the result is almost always smaller (even if by 1%) that it's original relative. Not only that but you can choose what you want from a certain package and disable what you don't want (this feature is known as USE flags).
+<strong>"But wait aren't source files bigger than their compiled relatives?"</strong>, bigger yes as they take more space, but once you've compiled the package the result is almost always smaller (even if by 1%) that it's original relative. Not only that but you can choose what you want from a certain package and disable what you don't want (this feature is known as USE flags).
 <br/>
 <br/>
 
@@ -39,21 +35,17 @@ The number of packages it provides by default is also quite notable. It can be e
 <br/>
 
 
-<strong>" Alright I'll go download that gentoo and install it on my Pi!! "</strong>... woah woah woah hold on there... True gentoo has lots of pros, but let's look at the cons as well. First of all compiling everything from source is a time consuming, heat producing and age reducing process.. (your age as well as the hardware's age). I was running gentoo on my toshiba laptop and compiling everything meant that I had to leave the machine running at 80 to 90 degrees celsius and at 90-99% CPU usage for times variying from 1 minute to sometimes hours.
+<strong>"Alright I'll go download that gentoo and install it on my Pi!!"</strong>... woah woah woah hold on there... True gentoo has lots of pros, but let's look at the cons as well. First of all compiling everything from source is a time consuming, heat producing and age reducing process.. (your age as well as the hardware's age). I was running gentoo on my toshiba laptop and compiling everything meant that I had to leave the machine running at 80 to 90 degrees celsius and at 90-99% CPU usage for times variying from 1 minute to sometimes hours.
 <br/>
 <br/>
 
-My laptop had a quad core intel cpu, now imagine doing that on a pi... I wonder if it's ever going to finish compiling... But you can as always cross-compile by forcing your stronger higher end hardware to build the packages with a configuration suitable for that pi or any other lower end hardware. <strong>" Ok I have a high-end PC should I download gentoo now? "</strong>... The truth is gentoo requires a lot and a lot of knowledge to work with it. But if you're interested I'll be more than pleased to help you on that (lemme know in the comments below).
+My laptop had a quad core intel cpu, now imagine doing that on a pi... I wonder if it's ever going to finish compiling... But you can as always cross-compile by forcing your stronger higher end hardware to build the packages with a configuration suitable for that pi or any other lower end hardware. <strong>"Ok I have a high-end PC should I download gentoo now?"</strong>... The truth is gentoo requires a lot and a lot of knowledge to work with it. But if you're interested I'll be more than pleased to help you on that (lemme know in the comments below).
 <br/>
 <br/>
 <br/>
 
-<h3><span class="line-center"><a href="https://www.voidlinux.eu/" target="_blank">Void Linux</a></span></h3>
-<a href="https://www.voidlinux.eu/" target="_blank"><img src="https://sr.ht/02lC.png" alt="voidlinuxlogo" class="img-responsive"></a>
-<div style="text-align: center">Credits to <strong>" Jakub Skrzypnik "</strong> for this image</div>
-<br/>
-
-<strong>" Wait what? I've never heard of this distro before? How did it make it here? "</strong>.. Simply said IT EARNED IT. Sorry for being too loud but that's the truth. Void Linux is an independent rolling-release GNU/Linux distro, developed entirely by volunteers and they nailed every aspect in it. Everything in it is lightweight and does what it needs to do perfectly. Their package manager xbps is awesome. Their service manager runit kicks systemd's and openrc's ass. It boots under 10 seconds on an old HDD and between 2-4 seconds on an SSD.
+<h3><a href="https://www.voidlinux.eu/" target="_blank">Void Linux</a></h3>
+<strong>"Wait what? I've never heard of this distro before? How did it make it here?"</strong>.. Simply said it EARNED it. Sorry for being too loud but that's the truth. Void Linux is an independent rolling-release GNU/Linux distro, developed entirely by volunteers and they nailed every aspect in it. Everything in it is lightweight and does what it needs to do perfectly. Their package manager xbps is awesome. Their service manager runit kicks systemd's and openrc's ass. It boots under 10 seconds on an old HDD and between 2-4 seconds on an SSD.
 <br/>
 <br/>
 
@@ -70,11 +62,7 @@ I can't think of any cons for void as I didn't use it for a long period of time 
 <br/>
 <br/>
 
-<h3><span class="line-center"><a href="https://www.archlinux.org/" target="_blank">Arch Linux</a></span></h3>
-<a href="https://www.archlinux.org/" target="_blank"><img src="https://www.archlinux.org/static/logos/archlinux-logo-dark-1200dpi.b42bd35d5916.png" alt="archlinuxlogo" class="img-responsive"></a>
-<div style="text-align: center">License restrictions under <a href="https://wiki.archlinux.org/index.php/DeveloperWiki:TrademarkPolicy" target="_blank">ArchLinux Trademark Policy</a></div>
-<br/>
-
+<h3><a href="https://www.archlinux.org/" target="_blank">Arch Linux</a></h3>
 Oh boy... You saw this coming from a mile didn't you... It's our all time star Arch Linux! The distro with the worst community ever. The distro where I tried to report several bugs in the irc and got roasted as either they were upstream or that I'm a retard for using the features that bugs made unavailable... Anyways...
 <br/>
 <br/>
@@ -87,7 +75,7 @@ Archlinux uses systemd by default which will hopefully be a distro of itself if 
 <br/>
 <br/>
 
-The official repositories offer a fair amount of packages (more than voidlinux and less than gentoo). This can also be extended using the aur which is completely unofficial. Everything seems super smooth with arch as pacman does most of the work for you. Optimus laptops won't have any hard time using arch. In fact arch is the only distro that makes the <strong>" But I have 2 graphics card an iGPU and dGPU... "</strong> a problem of the past. The devs did a lot of configuration for the packages so you don't have to bother about missing libs or having to relink libs or stuff like that.
+The official repositories offer a fair amount of packages (more than voidlinux and less than gentoo). This can also be extended using the aur which is completely unofficial. Everything seems super smooth with arch as pacman does most of the work for you. Optimus laptops won't have any hard time using arch. In fact arch is the only distro that makes the <strong>"But I have 2 graphics card an iGPU and dGPU..."</strong> a problem of the past. The devs did a lot of configuration for the packages so you don't have to bother about missing libs or having to relink libs or stuff like that.
 <br/>
 <br/>
 
