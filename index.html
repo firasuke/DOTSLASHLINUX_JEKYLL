@@ -1,12 +1,12 @@
 ---
 layout: d
 ---
-<div class="row">{%for post in paginator.posts offset:1%}
+<div class="row">{% for post in paginator.posts offset:1 %}
   <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
     <div class="box card">
-      <a href="{{post.url}}">
-        <div class="frame"><img src="{{post.imgsrc}}" alt="{{post.imgalt}}"></div>
-        <h3>{{post.title}}</h3></a>
+      <a href="{{ post.url }}">
+        <div class="frame"><img src="{{ post.imgsrc }}" alt="{{ post.imgalt }}"></div>
+        <h3>{{ post.title }}</h3></a>
     </div>
-  </div>{%endfor%}
+  </div>{% endfor %}
 </div>
