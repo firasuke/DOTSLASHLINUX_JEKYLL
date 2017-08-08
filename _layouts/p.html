@@ -25,7 +25,7 @@ layout: d
   <div id="leavecomment">
     <h3>Leave A Comment</h3>
     <form method="POST" action="https://api.staticman.net/v2/entry/firasuke/DOTSLASHLINUX/gh-pages/c">
-      <input name="options[redirect]" type="hidden" value="/{{page.url}}">
+      <input name="options[redirect]" type="hidden" value="{{page.url}}">
       <input name="options[slug]" type="hidden" value="{{page.slug}}">
       <input type="hidden" id="reply" name="fields[replying_to]" value="">
       <input name="fields[name]" type="text">
