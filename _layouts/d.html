@@ -16,28 +16,24 @@
 
   <body>
     <div class="row middle-xs middle-sm middle-md middle-lg header container">
-        <div class="col-xs-12 center-xs col-sm-4 start-sm col-md-4 start-md col-lg-4 start-lg">
-          <div class="box">
-            <h1 id="brand"><a href="{{site.url}}">DOTSLASHLINUX</a></h1>
-          </div>
+      <div class="col-xs-12 center-xs col-sm-4 start-sm col-md-4 start-md col-lg-4 start-lg">
+        <div class="box">
+          <h1 id="brand"><a href="{{site.url}}">DOTSLASHLINUX</a></h1>
         </div>
-
-        <div class="col-xs-12 center-xs col-sm-8 end-sm col-md-8 end-md col-lg-8 end-lg">
-          <div class="box">
-            <nav>
-              <ul>
-                <li class="{%if page.url== '/' or page.url=='/page2/'%}cur{%endif%}"><a href="/">HOME</a></li>
-                <li class="{%if page.url=='/about/'%}cur{%endif%}"><a href="/about/">ABOUT</a></li>
-                <li><a href="/feed.xml">RSS</a></li>
-              </ul>
-            </nav>
-          </div>
+      </div>
+      <div class="col-xs-12 center-xs col-sm-8 end-sm col-md-8 end-md col-lg-8 end-lg">
+        <div class="box">
+          <nav>
+            <ul>
+              <li class="{%if page.url== '/' or page.url=='/page2/'%}cur{%endif%}"><a href="/">HOME</a></li>
+              <li class="{%if page.url=='/about/'%}cur{%endif%}"><a href="/about/">ABOUT</a></li>
+              <li><a href="/feed.xml">RSS</a></li>
+            </ul>
+          </nav>
         </div>
-
+      </div>
     </div>
-
     <div class="row main container">
-
       <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 content">
         {%if page.url=='/'%}{%assign fp=site.posts.first%}<div class="box first">
           <a href="{{fp.url}}">
@@ -47,10 +43,10 @@
         </div>{%endif%}
         <div class="box deck">
           {%if page.url=='/'%}<h2>Latest Articles{%if paginator.total_pages > 1%}
-          <span>({{paginator.page}}/{{paginator.total_pages}})</span>{%if paginator.previous_page%}
-          <a href="{{paginator.previous_page_path}}">Previous</a>{%endif%}{%if paginator.next_page%}
-          <a href="{{ paginator.next_page_path }}">Next</a>{%endif%}
-          {%endif%}</h2>{%endif%}
+            <span>({{paginator.page}}/{{paginator.total_pages}})</span>{%if paginator.previous_page%}
+            <a href="{{paginator.previous_page_path}}">Previous</a>{%endif%}{%if paginator.next_page%}
+            <a href="{{ paginator.next_page_path }}">Next</a>{%endif%}
+            {%endif%}</h2>{%endif%}
           {{content}}
         </div>
         {%if page.url=='/'%}
@@ -70,9 +66,7 @@
         </div>
         {%endif%}
       </div>
-
       <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 side">
-        
         <div class="box search">
           <h3>Search DOTSLASHLINUX</h3>
           <form action="{{site.url}}/search/" method="get">
@@ -117,11 +111,8 @@
         </div>
       </div>
     </div>
-
     <script src="/r/j/p.min.js"></script>
     <script src="/r/j/l.min.js"></script>
     <script src="/r/j/s.js"></script>
-
   </body>
-
 </html>

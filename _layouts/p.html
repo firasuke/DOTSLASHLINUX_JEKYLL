@@ -6,8 +6,8 @@ layout: d
   <div class="frame"><img src="{{page.imgsrc}}" alt="{{page.imgalt}}"></div>
   <div class="info"><small>Written by {{page.author}} on {{page.date|date: "%d/%m/%Y"}} ({{page.readtime}} | {%assign cc = site.data.c[page.slug] | size%}{%if cc != 1%}{{cc}} Comments{%elsif cc == 1%}{{cc}} Comment{%endif%})</small></div>
   <p>{{page.content}}</p>
-</div>{%if site.data.c[page.slug]%}
-<div id="comments">
+</div>
+<div id="comments">{%if site.data.c[page.slug]%}
   <h3>{{site.data.c[page.slug]|size}} Comments</h3>{%endif%}{%if site.data.c[page.slug]%}{%assign c = site.data.c.[page.slug]|sort%}
   <div class="user-comments">{%for comment in c reversed%}{%assign cd = comment[1]%}{%assign r = cd.replying_to%}{%if r == ''%}
     <div class="main-comment">
