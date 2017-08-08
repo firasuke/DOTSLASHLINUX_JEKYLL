@@ -14,7 +14,7 @@ layout: d
       <h4>{{ cd.name }}</h4>
       <h6>{{ cd.date|date:"%d/%m/%Y | %r" }}</h6>
       {{ cd.comment|markdownify }}
-      <a href="{{page.url}}#leavecomment" onclick="document.getElementById('reply').setAttribute('value','{{cd._id}}')">Reply</a>
+      <a href="{{page.url}}#leavecomment" onclick="document.getElementById('reply').value = '{{cd._id}}'">Reply</a>
     </div>{% for commentr in c %}{% assign crd = commentr[1] %}{% if crd.replying_to == cd._id %}
     <div class="replies">
       <h4>{{ crd.name }}</h4>
