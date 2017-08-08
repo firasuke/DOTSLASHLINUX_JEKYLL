@@ -122,7 +122,7 @@ ePDFView is convenient lightweight pdf reader for GNU/Linux. It's so small it we
 DeaDBeef is the lighter one (but not by much). However, I've encountered several problems while trying deadbeef. Audio files that had.m4a or.aac extension were unplayable and crashed the player. On the other hand, my experience with audacious was super smooth and it played whatever I through at it as long as it had audio.
 <br/>
 <hr/>
-<h3>17- Video Player: <a href="https://mpv.io/" targer="blank">mpv</a></h3>
+<h3>17- Video Player: <a href="https://mpv.io/" target="blank">mpv</a></h3>
 Some may argue that mplayer is lighter, that is true but only slightly. Mpv plays all video formats known to man-kind and it uses less cpu resources than both mplayer and vlc. It also supports VAAPI (Video Acceleration API) and VDPAU (Video Decode and Presentation API) which can significantly reduce its cpu usage (VAAPI) and its gpu usage (VDPAU) making it the fastest, most powerful and least resource hungry video player on GNU/Linux.
 <br/>
 <br/>
