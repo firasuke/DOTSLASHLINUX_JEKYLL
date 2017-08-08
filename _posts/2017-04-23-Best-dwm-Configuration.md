@@ -10,7 +10,7 @@ readtime: 3 minutes
 In this article I'll show you how to setup dwm and equip it with a nice basic configuration file.
 <br/>
 <hr/>
-<h3 id="Installation">1- Installation</h3>
+<h3>1- Installation</h3>
 <br/>
 Gentoo Linux:
 
@@ -24,7 +24,7 @@ Arch Linux:
 
 <pre><code class="language-bash">pacman -Syu dwm</code></pre>
 <hr/>
-<h3 id="Accessing_Configuration_Files">2- Accessing Configuration Files</h3>
+<h3>2- Accessing Configuration Files</h3>
 <br/>
 Since dwm's configuration file is written in C, chances are you're pretty much losing all customization options by downloading a binary based version of dwm. This is the case in Arch Linux and in Void Linux. To configure dwm, you need to compile it from source with the configuration you want. This is easily done in gentoo since you're pretty much building everything from source.
 <br/>
@@ -46,7 +46,7 @@ At the time of writing this article, dwm's version is 6.1-r1. Your version is pr
 <br/>
 For those using nano as well, I recommend enabling syntax highlighting since it makes your life much easier, especially when editing text files in the terminal.
 <hr/>
-<h3 id="Configuration">3- Configuration</h3>
+<h3>3- Configuration</h3>
 <br/>
 Once you've opened the configuration file, start editing it and tuning it to your liking. It's pretty straightforward as everything is explained. However, I'm here to provide you with a nice configuration file and save you some time. Here's my configuration file tuned to be used with gentoo:
 <pre class="line-numbers" data-line="93, 108"><code class="language-c">/* appearance */
@@ -189,7 +189,6 @@ I've explained the basic stuff using comments in the configuration file for thos
 I've included these default shortcuts in the configuration file as well, just comment out my shortcuts and uncomment the defaults.
 <br/>
 <hr/>
-<h3 id="Starting_dwm">4- Starting dwm</h3>
-<br/>
+<h3>4- Starting dwm</h3>
 After we've done configuring dwm, it's time to fire it up. To start dwm, simply add the following to your .xinitrc:
 <pre><code class="lang-properties">exec dwm</code></pre>
