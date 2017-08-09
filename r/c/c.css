@@ -19,8 +19,13 @@ hr {
   border-color: #232323;
 }
 
+mark {
+  background-color: #333333;
+  color: #eaeaea;
+}
+
 .cur a {
-  color: #707070 !important; 
+  color: #444444 !important; 
 }
 
 input {
@@ -32,8 +37,8 @@ textarea,
 button {
   box-sizing: border-box;
   padding: 7px;
-  background-color: #707070;
-  border: 1px solid #707070;
+  background-color: #444444;
+  border: 1px solid #444444;
   box-shadow: black 0 0 10px;
   outline: none;
   color: #eaeaea !important;
@@ -90,7 +95,7 @@ img:hover {
 .deck,
 .popular {
   padding: 10px;
-  background-color: #707070;
+  background-color: #444444;
   box-shadow: black 0 0 10px;
   margin-bottom: 50px;
 }
@@ -151,7 +156,6 @@ p {
 
 .info {
   text-align: center;
-  color: #333333;
 }
 
 #comments h3 {
