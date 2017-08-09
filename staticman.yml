@@ -3,13 +3,12 @@ comments:
   branch: "gh-pages"
   commitMessage: "New Comment"
   filename: "c{@timestamp}"
-  format: "yml"
+  format: "yaml"
   generatedFields:
     date:
       type: date
       options:
         format: "iso8601"
   moderation: true
-  name: "dotslashlinux.com"
   path: "_data/c/{options.slug}"
   requiredFields: ["name", "comment"]
