@@ -41,7 +41,7 @@
           </a>
         </div>{% endif %}
         <div class="box deck">
-          {% if page.url=='/' %}<h2>Latest Articles{% if paginator.total_pages > 1 %}
+          {% if page.url=='/' or page.url=='/page2/'%}<h2>Latest Articles{% if paginator.total_pages > 1 %}
             <span>({{ paginator.page }}/{{ paginator.total_pages }})</span>{% if paginator.previous_page %}
             <a href="{{paginator.previous_page_path}}">Previous</a>{% endif %}{% if paginator.next_page %}
             <a href="{{ paginator.next_page_path }}">Next</a>{% endif %}
