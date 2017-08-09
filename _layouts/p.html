@@ -22,7 +22,7 @@ layout: d
       {{ crd.comment|markdownify }}</div>{% endif %}{% endfor %}{% endif %}{% endfor %}</div>{% endif %}
   <div id="leavecomment">
     <h3>Leave A Comment</h3>
-    <form method="POST" action="https://api.staticman.net/v2/entry/firasuke/DOTSLASHLINUX/c/gh-pages" novalidate="novalidate">
+    <form method="POST" action="https://api.staticman.net/v2/entry/firasuke/DOTSLASHLINUX/gh-pages" novalidate="novalidate">
       <input name="options[redirect]" type="hidden" value="{{ page.url }}">
       <input name="options[slug]" type="hidden" value="{{ page.slug }}">
       <input type="hidden" id="reply" name="fields[replying_to]" value="">
