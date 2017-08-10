@@ -3,7 +3,7 @@ comments:
   branch: "gh-pages"
   commitMessage: "New Comment"
   filename: "c{@timestamp}"
-  format: "yaml"
+  format: "yml"
   generatedFields:
     date:
       type: date
