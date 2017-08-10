@@ -22,8 +22,8 @@ layout: d
       {{ crd.comment|markdownify }}</div>{% endif %}{% endfor %}{% endif %}{% endfor %}</div>{% endif %}
   <div id="leavecomment">
     <h3>Leave A Comment</h3>
-    <form method="POST" action="https://api.staticman.net/v2/entry/firasuke/DOTSLASHLINUX/gh-pages/c">
-      <input name="options[redirect]" type="hidden" value="{{ site.url }}{{ page.url }}">
+    <form action="https://getsimpleform.com/messages?form_api_token=4458712617021cb12239cbfd2942b227" method="post">
+      <input name="options[redirect]" type="hidden" value="{{ site.url }}{{ page.url }}#comments">
       <input name="options[slug]" type="hidden" value="{{ page.slug }}">
       <input type="hidden" id="reply" name="fields[replying_to]" value="">
       <input name="fields[name]" type="text">
